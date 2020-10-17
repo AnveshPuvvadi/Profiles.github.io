@@ -16,7 +16,7 @@ state = {
 }
 
 componentDidMount() {
-    axios.get('https://reqres.in/api/users')
+    axios.get('https://reqres.in/api/users?delay=3')
     .then ( response => {
         this.setState ({ users : response.data.data, usersUnsort: response.data.data, loading: false})
     })
@@ -59,7 +59,14 @@ onSortHandler = (e) => {
     render() {   
         
         let user = (
-                
+                <div>
+                 <div className={classes.Sort}>
+                 Sort by : <select  name="sorted" onChange={(e) => this.onSortHandler(e)}>
+                    <option value="none" >none</option>
+                    <option value="FirstName" >FirstName</option>
+                    <option value="LastName" >LastName</option>
+                 </select>
+                 </div>
                  <div className={classes.Grid}>  
                         {this.state.users.map (user => (
                             <Users key={user.id}
@@ -71,6 +78,7 @@ onSortHandler = (e) => {
                              {...this.props}/>
                         ))}
                 </div>
+                </div>
         )
 
         let spin = this.state.loading ? <Spinner /> : user
@@ -78,13 +86,6 @@ onSortHandler = (e) => {
             <div>
             
             <div className={classes.Profiles}>
-            <div className={classes.Sort}>
-            Sort by : <select  name="sorted" onChange={(e) => this.onSortHandler(e)}>
-                    <option value="none" >none</option>
-                    <option value="FirstName" >FirstName</option>
-                    <option value="LastName" >LastName</option>
-            </select>
-            </div>
                 {spin}
             </div>
             </div>

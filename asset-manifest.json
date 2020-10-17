@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/UserProfiles.github.io/static/css/main.b1980f7c.chunk.css",
-    "main.js": "/UserProfiles.github.io/static/js/main.4648277a.chunk.js",
-    "main.js.map": "/UserProfiles.github.io/static/js/main.4648277a.chunk.js.map",
-    "runtime-main.js": "/UserProfiles.github.io/static/js/runtime-main.bdbfec0e.js",
-    "runtime-main.js.map": "/UserProfiles.github.io/static/js/runtime-main.bdbfec0e.js.map",
-    "static/js/2.05e68cc6.chunk.js": "/UserProfiles.github.io/static/js/2.05e68cc6.chunk.js",
-    "static/js/2.05e68cc6.chunk.js.map": "/UserProfiles.github.io/static/js/2.05e68cc6.chunk.js.map",
-    "index.html": "/UserProfiles.github.io/index.html",
-    "precache-manifest.ea04631cbe05a2894df4d3929383bfdc.js": "/UserProfiles.github.io/precache-manifest.ea04631cbe05a2894df4d3929383bfdc.js",
-    "service-worker.js": "/UserProfiles.github.io/service-worker.js",
-    "static/css/main.b1980f7c.chunk.css.map": "/UserProfiles.github.io/static/css/main.b1980f7c.chunk.css.map",
-    "static/js/2.05e68cc6.chunk.js.LICENSE.txt": "/UserProfiles.github.io/static/js/2.05e68cc6.chunk.js.LICENSE.txt"
+    "main.css": "/Profiles.github.io/static/css/main.b1980f7c.chunk.css",
+    "main.js": "/Profiles.github.io/static/js/main.10954be4.chunk.js",
+    "main.js.map": "/Profiles.github.io/static/js/main.10954be4.chunk.js.map",
+    "runtime-main.js": "/Profiles.github.io/static/js/runtime-main.dcad7354.js",
+    "runtime-main.js.map": "/Profiles.github.io/static/js/runtime-main.dcad7354.js.map",
+    "static/js/2.05e68cc6.chunk.js": "/Profiles.github.io/static/js/2.05e68cc6.chunk.js",
+    "static/js/2.05e68cc6.chunk.js.map": "/Profiles.github.io/static/js/2.05e68cc6.chunk.js.map",
+    "index.html": "/Profiles.github.io/index.html",
+    "precache-manifest.37a1fc3ac246ef1404abaede23152f68.js": "/Profiles.github.io/precache-manifest.37a1fc3ac246ef1404abaede23152f68.js",
+    "service-worker.js": "/Profiles.github.io/service-worker.js",
+    "static/css/main.b1980f7c.chunk.css.map": "/Profiles.github.io/static/css/main.b1980f7c.chunk.css.map",
+    "static/js/2.05e68cc6.chunk.js.LICENSE.txt": "/Profiles.github.io/static/js/2.05e68cc6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bdbfec0e.js",
+    "static/js/runtime-main.dcad7354.js",
     "static/js/2.05e68cc6.chunk.js",
     "static/css/main.b1980f7c.chunk.css",
-    "static/js/main.4648277a.chunk.js"
+    "static/js/main.10954be4.chunk.js"
   ]
 }

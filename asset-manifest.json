@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Profiles.github.io/static/css/main.b1980f7c.chunk.css",
+    "main.css": "/Profiles.github.io/static/css/main.0cf57bae.chunk.css",
     "main.js": "/Profiles.github.io/static/js/main.10954be4.chunk.js",
     "main.js.map": "/Profiles.github.io/static/js/main.10954be4.chunk.js.map",
     "runtime-main.js": "/Profiles.github.io/static/js/runtime-main.dcad7354.js",
@@ -8,15 +8,15 @@
     "static/js/2.05e68cc6.chunk.js": "/Profiles.github.io/static/js/2.05e68cc6.chunk.js",
     "static/js/2.05e68cc6.chunk.js.map": "/Profiles.github.io/static/js/2.05e68cc6.chunk.js.map",
     "index.html": "/Profiles.github.io/index.html",
-    "precache-manifest.37a1fc3ac246ef1404abaede23152f68.js": "/Profiles.github.io/precache-manifest.37a1fc3ac246ef1404abaede23152f68.js",
+    "precache-manifest.26922c34154de2d7a7f1b5613e48e6f5.js": "/Profiles.github.io/precache-manifest.26922c34154de2d7a7f1b5613e48e6f5.js",
     "service-worker.js": "/Profiles.github.io/service-worker.js",
-    "static/css/main.b1980f7c.chunk.css.map": "/Profiles.github.io/static/css/main.b1980f7c.chunk.css.map",
+    "static/css/main.0cf57bae.chunk.css.map": "/Profiles.github.io/static/css/main.0cf57bae.chunk.css.map",
     "static/js/2.05e68cc6.chunk.js.LICENSE.txt": "/Profiles.github.io/static/js/2.05e68cc6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dcad7354.js",
     "static/js/2.05e68cc6.chunk.js",
-    "static/css/main.b1980f7c.chunk.css",
+    "static/css/main.0cf57bae.chunk.css",
     "static/js/main.10954be4.chunk.js"
   ]
 }

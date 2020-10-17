@@ -1,0 +1,28 @@
+.Toolbar {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: lightblue;
+    z-index: 90;
+    align-items: center;
+    padding: 0 2px;
+    box-sizing: border-box;
+}
+
+.Heading {
+    position: relative;
+    left: 610px;
+}
+
+@media (max-width: 600px) {
+    .DesktopOnly {
+        display: none;
+    }
+    .Heading {
+        position: relative;
+        left: 38%;
+    }
+}

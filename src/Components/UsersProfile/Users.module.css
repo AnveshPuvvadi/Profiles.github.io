@@ -1,0 +1,55 @@
+.Profiles {
+    margin: 0; height: 100%; overflow: hidden
+}
+
+.Sort {
+  width:100px;
+  float: right;
+  position: absolute;
+  right: 300px;
+  top: 53px;
+    
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    background-color: #2196F3;
+    gap: 4px;
+    padding: 10px;
+    margin-left: 280px;
+    margin-top: 50px;
+    width:55%;
+    height: 65%;
+  }
+
+.User {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .Grid {
+        width: 60%;
+        margin-left: 80px;
+        grid-template-columns: auto ;
+        gap: 2px;
+
+    }
+    .user {
+        padding: 10px 0;
+        font-size: 10px;
+
+    }
+    .Sort {
+        float: right;
+        position: absolute;
+        right: 40px;
+        top: 53px;
+          
+      }
+}
+

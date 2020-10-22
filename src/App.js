@@ -15,10 +15,10 @@ class App extends Component {
         <Layout>
           <Toolbar />
           <Switch>
-           
-            <Route path='/user' component={User} />
-            <Route path='/' exact component={UsersProfile} />   
             
+            <Route path='/user' component={User} />
+            <Route path='/' exact component={UsersProfile} /> 
+  
           </Switch>
         </Layout>
       </div>
